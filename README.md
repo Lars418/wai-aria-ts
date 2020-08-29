@@ -16,7 +16,10 @@ import enumAriaRoles from 'enumAriaRoles.ts';
 
 const Image = () => {
   return (
-    <img src="cat.jpg" role={enumAriaRoles.presentation} />
+    <img 
+      src="cat.jpg"
+      role={enumAriaRoles.presentation}
+    />
   );
 }
 
